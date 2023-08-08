@@ -257,7 +257,7 @@ html main .container .row .col.col--3 {
     border-left: none !important;
 }
 
-html main .container .row .docItemCol_src-theme-DocItem-Layout-styles-module {
+html main .container > .row > :first-child {
     background-color: #090909 !important;
     border-radius: 20px !important;
     margin: 30px !important;
