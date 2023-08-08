@@ -1,0 +1,311 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+// @import 'fonts';
+@import 'variables';
+@import 'media-queries';
+@import 'global';
+@import 'navbar';
+@import 'table-of-contents';
+@import 'sidebar-menu';
+@import 'pagination';
+@import 'footer';
+@import 'search';
+@import 'markdown';
+@import 'tabs';
+@import 'admonition';
+@import 'details';
+
+@font-face {
+    font-family: 'Noto Sans Arabic';
+    src: url('/static/fonts/NotoSansArabic-VariableFont_wdth,wght.ttf');
+}
+
+:root {
+    --ifm-font-family-monospace: 'Noto Sans Arabic', sans-serif !important;
+    --ifm-font-family-base: 'Noto Sans Arabic', sans-serif !important;
+    --ifm-heading-font-weight: 500;
+}
+
+body {
+    font-family: 'Noto Sans Arabic', sans-serif !important;
+    font-weight: 300 !important;
+    font-size: 1.3rem !important;
+}
+
+aside * {
+    font-size: 1.1rem !important;
+}
+
+nav * {
+    font-size: 1.1rem !important;
+    text-transform: uppercase !important;
+}
+
+.sidebarLogo_node_modules-\@docusaurus-theme-classic-lib-theme-DocSidebar-Desktop-styles-module {
+    text-transform: uppercase !important;
+}
+
+.tableOfContents_node_modules-\@docusaurus-theme-classic-lib-theme-TOC-styles-module * {
+    font-size: 1.1rem !important;
+    font-weight: 300 !important;
+}
+
+#__docusaurus footer * {
+    font-size: 1.1rem !important;
+}
+
+// body * {
+//   // font-size: 1.2rem !important;
+// }
+
+// *:not(.theme-doc-sidebar-item-category-level-2) {
+//   font-family: 'Noto Sans Arabic', sans-serif !important;
+//   font-weight: 300 !important;
+//   font-size: 1.2rem !important;
+// }
+
+// // not menu__link--sublist-caret
+// .menu__list-item-collapsible > * :not(.menu__link--sublist) {
+//   font-family: 'Noto Sans Arabic', sans-serif !important;
+//   font-weight: 900 !important;
+//   font-size: 1.2rem !important;
+// }
+
+// .theme-doc-sidebar-item-category-level-1 {
+//     margin-bottom: 20px;
+// }
+
+.menu__list-item {
+    margin-bottom: 10px !important;
+}
+
+// .theme-doc-sidebar-item-category-level-2 {
+// //   margin-bottom: 10px;
+// }
+
+html[data-theme='dark'] .menu * {
+    // color: #e6e6e6 !important;
+    font-weight: 350;
+}
+
+html[data-theme='dark'] .menu *:hover {
+    color: #00d5ff !important;
+}
+
+// .menu__list-item-collapsible {
+//     // text-transform: capitalize !important;
+// }
+
+.menu {
+    .menu__link,
+    .menu__caret {
+        border-radius: 5px;
+        padding-left: 30px;
+        // color: #e6e6e6;
+        // margin-bottom: 10px;
+    }
+
+    .menu__list-item {
+        border-radius: 5px;
+    }
+
+    .menu__link:hover,
+    .menu__caret:hover,
+    .menu__link--sublist:hover,
+    .menu__list-item-collapsible:hover {
+        background: var(--ifm-menu-color-background-active) !important;
+    }
+
+    .menu__link--sublist-caret::before {
+        margin-left: 15px;
+        // background: url('/img/chevron-white.svg') no-repeat;
+    }
+}
+
+iframe {
+    border: 1px solid #262626;
+    margin-top: 5px;
+}
+
+.footer .container {
+    flex-direction: column;
+}
+
+// body {
+//     background: linear-gradient(to bottom,
+//             rgba(255, 255, 255, 0) 0%,
+//             rgba(255, 255, 255, 1) 300px),
+//         fixed 0 0 / 20px 20px radial-gradient(#d1d1d1 1px, transparent 0),
+//         fixed 10px 10px / 20px 20px radial-gradient(#d1d1d1 1px, transparent 0);
+// }
+
+// [data-theme='dark']:root body {
+//   background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #000 300px),
+//     fixed 0 0 / 20px 20px radial-gradient(#202020 1px, transparent 0),
+//     fixed 10px 10px / 20px 20px radial-gradient(#202020 1px, transparent 0);
+// }
+
+// [data-theme='light']:root body {
+//   background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #fff 300px),
+//     fixed 0 0 / 20px 20px radial-gradient(#d1d1d1 1px, transparent 0),
+//     fixed 10px 10px / 20px 20px radial-gradient(#d1d1d1 1px, transparent 0);
+// }
+
+.theme-admonition {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    border-radius: 5px;
+    border: 1px solid #262626;
+    // padding: 10px;
+    // margin: 10px 0;
+    background-color: transparent !important;
+
+    > * {
+        margin: 0 !important;
+    }
+
+    > :first-child {
+        position: relative;
+        top: 1px;
+    }
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    //   > :first-child {
+    //     border-left: 1px #262626 solid;
+    //   }
+}
+
+details {
+    background-color: transparent !important;
+    border: 1px solid #262626 !important;
+
+    &:hover {
+        background-color: #262626 !important;
+        cursor: pointer;
+        color: #fff !important;
+    }
+}
+
+.markdown li,
+.markdown ul,
+.markdown ol {
+    margin-block: 15px !important;
+}
+
+.markdown h1 {
+    margin-top: 0 !important;
+    margin-bottom: 30px !important;
+    text-transform: uppercase !important;
+}
+
+.markdown h2,
+.markdown h3,
+.markdown h4,
+.markdown h5,
+.markdown h6 {
+    margin-block: 30px !important;
+}
+
+.markdown * {
+    line-height: 1.7;
+}
+
+.markdown a:not([class]) {
+    color: #fff;
+    text-decoration: underline 1px #fff;
+    text-underline-offset: 3px;
+    transition: text-decoration-color 0.2s;
+}
+
+.markdown a:not([class]):hover {
+    color: #00d5ff;
+    text-decoration-color: #00d5ff;
+}
+
+.docSidebarContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocPage-Layout-Sidebar-styles-module {
+    clip-path: none !important;
+}
+
+/****************************** Theme Test ******************************/
+
+// html .navbar {
+//     border-bottom: none !important;
+// }
+
+aside {
+    border-right: none !important;
+}
+
+html main .container .row .col.col--3 {
+    border-left: none !important;
+}
+
+html main .container .row > :first-child {
+    background-color: #090909 !important;
+    border-radius: 20px !important;
+    margin: 30px !important;
+    padding: 30px !important;
+}
+
+/****************************** Blog ******************************/
+
+.mainWrapper_node_modules-\@docusaurus-theme-classic-lib-theme-Layout-styles-module .container {
+    // margin-inline: 30px !important;
+    flex-wrap: nowrap !important;
+}
+
+.mainWrapper_node_modules-\@docusaurus-theme-classic-lib-theme-Layout-styles-module
+    .container
+    .row {
+    // margin-inline: 30px !important;
+    flex-wrap: nowrap !important;
+}
+
+.mainWrapper_node_modules-\@docusaurus-theme-classic-lib-theme-Layout-styles-module
+    .container
+    aside {
+    background-color: #090909 !important;
+    border-radius: 20px !important;
+    margin: 10px !important;
+    padding: 30px !important;
+    display: none !important;
+}
+
+.mainWrapper_node_modules-\@docusaurus-theme-classic-lib-theme-Layout-styles-module
+    .container
+    main {
+    // width: 100% !important;
+    --ifm-col-width: 100% !important;
+}
+
+.mainWrapper_node_modules-\@docusaurus-theme-classic-lib-theme-Layout-styles-module
+    .container
+    div.col.col--2 {
+    // background-color: #090909 !important;
+    // border-radius: 20px !important;
+    // margin: 10px !important;
+    // padding: 30px !important;
+    display: none !important;
+}
+
+.mainWrapper_node_modules-\@docusaurus-theme-classic-lib-theme-Layout-styles-module
+    .container
+    main
+    article {
+    background-color: #090909 !important;
+    border-radius: 20px !important;
+    margin: 10px !important;
+    padding: 30px !important;
+    max-width: 75% !important;
+    margin-inline: auto !important;
+    // width: 100% !important;
+}
