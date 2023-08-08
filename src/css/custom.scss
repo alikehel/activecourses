@@ -235,6 +235,14 @@ details {
     clip-path: none !important;
 }
 
+.theme-doc-footer-edit-meta-row * {
+    align-self: center !important;
+}
+
+.theme-doc-footer-edit-meta-row > *:first-child {
+    width: 50% !important;
+}
+
 /****************************** Theme Test ******************************/
 
 // html .navbar {
@@ -249,7 +257,7 @@ html main .container .row .col.col--3 {
     border-left: none !important;
 }
 
-html main .container .row > :first-child {
+html main .container .row .docItemCol_src-theme-DocItem-Layout-styles-module {
     background-color: #090909 !important;
     border-radius: 20px !important;
     margin: 30px !important;
