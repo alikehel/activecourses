@@ -244,7 +244,7 @@ details {
 }
 
 main .container .row > .col {
-	max-width: 95% !important;
+    max-width: 95% !important;
 }
 
 /****************************** Theme Test ******************************/
@@ -299,20 +299,18 @@ html main .container .row .col.col--3 {
     --ifm-col-width: 100% !important;
 }
 
-// .mainWrapper_node_modules-\@docusaurus-theme-classic-lib-theme-Layout-styles-module
-//     .container
-//     div.col.col--2 {
-//     // background-color: #090909 !important;
-//     // border-radius: 0.9rem !important;
-//     // margin: 10px !important;
-//     // padding: 30px !important;
-//     display: none !important;
-// }
+.container div.col.col--2 {
+    // background-color: #090909 !important;
+    // border-radius: 0.9rem !important;
+    // margin: 10px !important;
+    // padding: 30px !important;
+    display: none !important;
+}
 
 // .mainWrapper_node_modules-\@docusaurus-theme-classic-lib-theme-Layout-styles-module
 //     .container
 //     main
-    article {
+article {
     background-color: #090909 !important;
     border-radius: 0.9rem !important;
     max-width: 95% !important;
@@ -322,9 +320,5 @@ html main .container .row .col.col--3 {
 }
 
 .col--offset-1 {
-	margin-left: 0;
-}
-
-.tableOfContents_node_modules-\@docusaurus-theme-classic-lib-theme-TOC-styles-module {
-   display: none;
+    margin-left: 0;
 }
