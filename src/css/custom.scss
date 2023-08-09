@@ -247,6 +247,20 @@ main .container .row > .col {
     max-width: 95% !important;
 }
 
+article {
+    background-color: #090909 !important;
+    border-radius: 0.9rem !important;
+    max-width: 95% !important;
+    margin: 1.5rem auto !important;
+    padding: 2.5vw 2.5vw !important;
+    // width: 100% !important;
+}
+
+hr {
+    border: 1px solid #262626 !important;
+    height: 0;
+}
+
 /****************************** Theme Test ******************************/
 
 // html .navbar {
@@ -303,18 +317,6 @@ html main .container .row .col.col--3 {
     // margin: 10px !important;
     // padding: 30px !important;
     display: none !important;
-}
-
-// .mainWrapper_node_modules-\@docusaurus-theme-classic-lib-theme-Layout-styles-module
-//     .container
-//     main
-article {
-    background-color: #090909 !important;
-    border-radius: 0.9rem !important;
-    max-width: 95% !important;
-    margin: 1.5rem auto !important;
-    padding: 2.5vw 2.5vw !important;
-    // width: 100% !important;
 }
 
 .col--offset-1 {
