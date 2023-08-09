@@ -76,7 +76,7 @@ module.exports = {
                         'Active Courses, CS study group, Computer Science community, Arabic Discord server, CS enthusiasts Egypt, Computer Science discussions, Study together online, Learn CS in Arabic, Coding collaboration, Programming help, Online education platform, Tech enthusiasts Egypt, Computer Science resources, Coding tutorials, CS beginner tips, Tech community Egypt, Programming projects, Coding mentorship, CS study resources, Online learning community, Computer Science events',
                 },
             ],
-            image: '/img/social-preview.jpg',
+            image: '/img/social-preview.png',
             // algolia: {
             //   appId: 'aa',
             //   apiKey: 'aa',
