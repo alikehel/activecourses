@@ -5,7 +5,7 @@ const codeTheme = require('./src/utils/prism');
 module.exports = {
     title: 'Active Courses',
     // tagline: 'All the tools you need to build modern transactional notification experience',
-    url: 'https://www.activecourses.tech',
+    url: 'https://activecourses.netlify.app',
     baseUrl: '/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
