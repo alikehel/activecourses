@@ -42,8 +42,11 @@ module.exports = {
                 blog: {
                     blogSidebarCount: 0,
                 },
-                googleTagManager: {
-                    containerId: 'GTM-KK4QLTMP',
+                sitemap: {
+                    changefreq: 'weekly',
+                    priority: 0.5,
+                    ignorePatterns: ['/tags/**'],
+                    filename: 'sitemap.xml',
                 },
             }),
         ],
@@ -66,9 +69,11 @@ module.exports = {
             },
             metadata: [
                 { name: 'robots', content: 'max-image-preview:large' },
+                { name: 'twitter:card', content: 'summary_large_image' },
                 {
                     name: 'keywords',
-                    content: 'Active Courses',
+                    content:
+                        'Active Courses, CS study group, Computer Science community, Arabic Discord server, CS enthusiasts Egypt, Computer Science discussions, Study together online, Learn CS in Arabic, Coding collaboration, Programming help, Online education platform, Tech enthusiasts Egypt, Computer Science resources, Coding tutorials, CS beginner tips, Tech community Egypt, Programming projects, Coding mentorship, CS study resources, Online learning community, Computer Science events',
                 },
             ],
             image: '/img/social-preview.jpg',

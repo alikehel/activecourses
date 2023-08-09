@@ -1,5 +1,5 @@
 <div align="center">
-  <img src=./public/logo-192x192.png>
+  <img src=./banner.png>
 </div>
 
 # Active Courses
