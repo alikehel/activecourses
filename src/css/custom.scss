@@ -195,11 +195,11 @@ details {
     }
 }
 
-.markdown li,
-.markdown ul,
-.markdown ol {
-    margin-block: 15px !important;
-}
+// .markdown li,
+// .markdown ul,
+// .markdown ol {
+//     // margin-block: 15px !important;
+// }
 
 .markdown h1 {
     margin-top: 0 !important;
@@ -207,13 +207,13 @@ details {
     text-transform: uppercase !important;
 }
 
-.markdown h2,
-.markdown h3,
-.markdown h4,
-.markdown h5,
-.markdown h6 {
-    margin-block: 30px !important;
-}
+// .markdown h2,
+// .markdown h3,
+// .markdown h4,
+// .markdown h5,
+// .markdown h6 {
+//     // margin-block: 30px !important;
+// }
 
 .markdown * {
     line-height: 1.7;
@@ -243,6 +243,10 @@ details {
     width: 50% !important;
 }
 
+main .container .row > .col {
+	max-width: 95% !important;
+}
+
 /****************************** Theme Test ******************************/
 
 // html .navbar {
@@ -257,12 +261,12 @@ html main .container .row .col.col--3 {
     border-left: none !important;
 }
 
-html main .container > .row > :first-child {
-    background-color: #090909 !important;
-    border-radius: 20px !important;
-    margin: 30px !important;
-    padding: 30px !important;
-}
+// html main .container > .row > :first-child {
+//     background-color: #090909 !important;
+//     border-radius: 0.9rem !important;
+//     margin: 1.5rem auto !important;
+//     padding: 1rem 1rem !important;
+// }
 
 /****************************** Blog ******************************/
 
@@ -271,22 +275,22 @@ html main .container > .row > :first-child {
     flex-wrap: nowrap !important;
 }
 
-.mainWrapper_node_modules-\@docusaurus-theme-classic-lib-theme-Layout-styles-module
-    .container
-    .row {
-    // margin-inline: 30px !important;
-    flex-wrap: nowrap !important;
-}
+// .mainWrapper_node_modules-\@docusaurus-theme-classic-lib-theme-Layout-styles-module
+//     .container
+//     .row {
+//     // margin-inline: 30px !important;
+//     // flex-wrap: nowrap !important;
+// }
 
-.mainWrapper_node_modules-\@docusaurus-theme-classic-lib-theme-Layout-styles-module
-    .container
-    aside {
-    background-color: #090909 !important;
-    border-radius: 20px !important;
-    margin: 10px !important;
-    padding: 30px !important;
-    display: none !important;
-}
+// .mainWrapper_node_modules-\@docusaurus-theme-classic-lib-theme-Layout-styles-module
+//     .container
+//     aside {
+//     background-color: #090909 !important;
+//     border-radius: 0.9rem !important;
+//     margin: 10px !important;
+//     padding: 30px !important;
+//     display: none !important;
+// }
 
 .mainWrapper_node_modules-\@docusaurus-theme-classic-lib-theme-Layout-styles-module
     .container
@@ -295,25 +299,32 @@ html main .container > .row > :first-child {
     --ifm-col-width: 100% !important;
 }
 
-.mainWrapper_node_modules-\@docusaurus-theme-classic-lib-theme-Layout-styles-module
-    .container
-    div.col.col--2 {
-    // background-color: #090909 !important;
-    // border-radius: 20px !important;
-    // margin: 10px !important;
-    // padding: 30px !important;
-    display: none !important;
-}
+// .mainWrapper_node_modules-\@docusaurus-theme-classic-lib-theme-Layout-styles-module
+//     .container
+//     div.col.col--2 {
+//     // background-color: #090909 !important;
+//     // border-radius: 0.9rem !important;
+//     // margin: 10px !important;
+//     // padding: 30px !important;
+//     display: none !important;
+// }
 
-.mainWrapper_node_modules-\@docusaurus-theme-classic-lib-theme-Layout-styles-module
-    .container
-    main
+// .mainWrapper_node_modules-\@docusaurus-theme-classic-lib-theme-Layout-styles-module
+//     .container
+//     main
     article {
     background-color: #090909 !important;
-    border-radius: 20px !important;
-    margin: 10px !important;
-    padding: 30px !important;
-    max-width: 75% !important;
-    margin-inline: auto !important;
+    border-radius: 0.9rem !important;
+    max-width: 95% !important;
+    margin: 1.5rem auto !important;
+    padding: 2.5vw 2.5vw !important;
     // width: 100% !important;
+}
+
+.col--offset-1 {
+	margin-left: 0;
+}
+
+.tableOfContents_node_modules-\@docusaurus-theme-classic-lib-theme-TOC-styles-module {
+   display: none;
 }

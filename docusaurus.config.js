@@ -39,6 +39,9 @@ module.exports = {
                 theme: {
                     customCss: require.resolve('./src/css/custom.scss'),
                 },
+                blog: {
+                    blogSidebarCount: 0,
+                },
             }),
         ],
     ],
@@ -134,7 +137,7 @@ module.exports = {
             },
             footer: {
                 style: 'dark',
-                copyright: `Copyright © ${new Date().getFullYear()} Active Courses ©. Built with 🤍 By <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/alikehel/">Ali Kehel</a>.`,
+                copyright: `Copyright © ${new Date().getFullYear()} Active Courses. Built with 🤍 By <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/alikehel/">Ali Kehel</a>.`,
             },
             tableOfContents: {
                 minHeadingLevel: 2,

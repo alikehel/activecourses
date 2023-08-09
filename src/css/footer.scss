@@ -128,12 +128,12 @@
 
   &__copyright {
     @include mobile-screen {
-      display: none;
+      // display: none;
     }
   }
 
   &__copyright-mobile {
-    display: none;
+    // display: none;
     @include mobile-screen {
       display: block;
       margin-top: 36px;
