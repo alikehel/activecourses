@@ -5,7 +5,7 @@ const codeTheme = require('./src/utils/prism');
 module.exports = {
     title: 'Active Courses',
     // tagline: 'All the tools you need to build modern transactional notification experience',
-    url: 'https://activecourses.netlify.app',
+    url: 'https://www.activecourses.tech',
     baseUrl: '/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
@@ -17,7 +17,7 @@ module.exports = {
         [
             'docusaurus-plugin-plausible',
             {
-                domain: 'activecourses.co',
+                domain: 'activecourses.tech',
             },
         ],
     ],
@@ -137,7 +137,7 @@ module.exports = {
                         position: 'right',
                     },
                     {
-                        href: 'https://discord.activecourses.tech',
+                        href: 'https://discord.gg/QrfTN2Aukx',
                         label: 'Discord',
                         position: 'right',
                     },
