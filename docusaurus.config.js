@@ -42,6 +42,9 @@ module.exports = {
                 blog: {
                     blogSidebarCount: 0,
                 },
+                googleTagManager: {
+                    containerId: 'GTM-KK4QLTMP',
+                },
             }),
         ],
     ],
