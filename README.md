@@ -1,3 +1,5 @@
+ℹ️ Visit [activecourses.netlify.app](https://activecourses.netlify.app/) if  the main URL is not working. ℹ️
+
 <div align="center">
   <img src=./banner.png>
 </div>
