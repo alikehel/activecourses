@@ -39,11 +39,13 @@ Please refer to [open an issue](https://help.github.com/articles/creating-an-iss
 Take a look at these if you need:
 - https://docusaurus.io/docs/create-doc
 - https://docusaurus.io/docs/blog
-> You can just see the existing mdx files and copy them
+> You can just see the existing mdx files and copy them.
+
+Check the templates: [blog template](./blog.template.mdx), [course template](./course.template.mdx).
 
 Don't forget to add any arabic text between \<div dir="rtl"> \</div>
 
-The title of any mdx file will be extracted from the frontmatter section and it must be in english
+The title of any mdx file will be extracted from the frontmatter section and it must be in english.
 
 ## Local Development
 
