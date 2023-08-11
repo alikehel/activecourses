@@ -23,13 +23,26 @@ Special thanks to [Omar Shawky](https://www.linkedin.com/in/omarshawky1/) for cr
 
 ## How to Contribute
 
+Use [Conventional Commits](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits) when commiting.
+
 ### Non-substantive changes
 
 For any minor updates to the curriculum, such as fixing broken URLs, correcting spelling or syntax errors, and other non-substantive issues, we welcome you to submit a pull request. You can do this by following the guidelines in [pull request guide](https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github-3/).
 
 ### Substantive changes
 
-If you have specific and substantial feedback or concerns about the content, we encourage you to open an issue. Please refer to [open an issue](https://help.github.com/articles/creating-an-issue/) for assistance.
+If you have specific and substantial feedback or concerns about the content, we encourage you to open an issue.
+
+Please refer to [open an issue](https://help.github.com/articles/creating-an-issue/) for assistance.
+
+Take a look at these if you need:
+- https://docusaurus.io/docs/create-doc
+- https://docusaurus.io/docs/blog
+> You can just see the existing mdx files and copy them
+
+Don't forget to add any arabic text between \<div dir="rtl"> \</div>
+
+The title of any mdx file will be extracted from the frontmatter section and it must be in english
 
 ## Local Development
 
