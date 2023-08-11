@@ -6,9 +6,15 @@
 
 The web app for the Active Courses discord server.
 
-[![License](https://img.shields.io/github/license/alikehel/activecourses)](https://github.com/alikehel/activecourses/blob/master/LICENSE)
-[![Issues](https://img.shields.io/github/issues/alikehel/activecourses)](https://github.com/alikehel/activecourses/issues)
-[![Stars](https://img.shields.io/github/stars/alikehel/activecourses)](https://github.com/alikehel/activecourses)
+[![GitHub contributors](https://img.shields.io/github/contributors/alikehel/activecourses)](https://github.com/alikehel/activecourses/contributors)
+[![GitHub issues](https://img.shields.io/github/issues/alikehel/activecourses)](https://github.com/alikehel/activecourses/issues)
+[![GitHub forks](https://img.shields.io/github/forks/alikehel/activecourses)](https://github.com/alikehel/activecourses/network)
+[![GitHub stars](https://img.shields.io/github/stars/alikehel/activecourses)](https://github.com/alikehel/activecourses/stargazers)
+[![GitHub license](https://img.shields.io/github/license/alikehel/activecourses)](https://github.com/alikehel/activecourses/blob/main/LICENSE)
+<img src="https://img.shields.io/github/languages/count/alikehel/activecourses" />
+<img src="https://img.shields.io/github/languages/top/alikehel/activecourses" />
+<img src="https://img.shields.io/github/languages/code-size/alikehel/activecourses" />
+<img src="https://img.shields.io/github/issues-pr-raw/alikehel/activecourses" />
 
 **Active Course** is a vibrant and inclusive **Arabic** Discord server dedicated to fostering a thriving community for CS enthusiasts mainly in the **Egyptian region**. Whether you're a beginner or an expert, we've got something valuable to offer to everyone. Join us to dive into the exciting world of Computer Science, study together, share knowledge, and engage in meaningful discussions with like-minded individuals.
 
