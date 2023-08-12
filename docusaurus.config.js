@@ -77,13 +77,14 @@ module.exports = {
                 },
             ],
             image: '/img/social-preview.png',
-            // algolia: {
-            //   appId: 'aa',
-            //   apiKey: 'aa',
-            //   indexName: 'activecourses',
-            //   contextualSearch: true,
-            //   // externalUrlRegex: '',
-            // },
+            algolia: {
+                appId: 'UKAZWJNL57',
+                apiKey: 'd89811956a35a47701b8cd359825a8a9',
+                indexName: 'activecourses',
+                contextualSearch: true,
+                insights: true,
+                // externalUrlRegex: '',
+            },
             docs: {
                 sidebar: {
                     autoCollapseCategories: true,
@@ -126,11 +127,11 @@ module.exports = {
                         position: 'left',
                         label: 'Resources & Guides',
                     },
-                    { to: '/blog', label: 'Blog', position: 'right' },
                     {
                         type: 'search',
-                        position: 'left',
+                        position: 'right',
                     },
+                    { to: '/blog', label: 'Blog', position: 'right' },
                     {
                         href: 'https://github.com/alikehel/activecourses',
                         label: 'GitHub',
