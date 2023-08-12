@@ -261,6 +261,17 @@ hr {
     height: 0;
 }
 
+.col {
+    margin: 0 auto;
+    padding: 0;
+}
+
+nav.menu {
+    padding-right: 0;
+    margin-right: 0;
+    padding-top: 24px;
+}
+
 /****************************** Theme Test ******************************/
 
 // html .navbar {
@@ -273,6 +284,7 @@ aside {
 
 html main .container .row .col.col--3 {
     border-left: none !important;
+    padding-left: 0;
 }
 
 // html main .container > .row > :first-child {
