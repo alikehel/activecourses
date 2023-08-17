@@ -110,17 +110,34 @@ module.exports = {
                         label: 'Intro',
                     },
                     {
-                        type: 'docSidebar',
-                        sidebarId: 'coreSidebar',
+                        label: 'Courses',
+                        type: 'dropdown',
                         position: 'left',
-                        label: 'Core',
+                        items: [
+                            {
+                                type: 'docSidebar',
+                                sidebarId: 'coreSidebar',
+                                label: 'Core',
+                            },
+                            {
+                                type: 'docSidebar',
+                                sidebarId: 'subfieldsSidebar',
+                                label: 'Subfields',
+                            },
+                        ],
                     },
-                    {
-                        type: 'docSidebar',
-                        sidebarId: 'subfieldsSidebar',
-                        position: 'left',
-                        label: 'Subfields',
-                    },
+                    // {
+                    //     type: 'docSidebar',
+                    //     sidebarId: 'coreSidebar',
+                    //     position: 'left',
+                    //     label: 'Core',
+                    // },
+                    // {
+                    //     type: 'docSidebar',
+                    //     sidebarId: 'subfieldsSidebar',
+                    //     position: 'left',
+                    //     label: 'Subfields',
+                    // },
                     {
                         type: 'docSidebar',
                         sidebarId: 'resourcesAndGuidesSidebar',
