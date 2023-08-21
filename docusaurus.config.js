@@ -185,14 +185,14 @@ module.exports = {
                         position: 'right',
                     },
                     // {
-                    //     href: 'https://discord.gg/QrfTN2Aukx',
+                    //     href: 'https://discord.gg/pevXXrzzKt',
                     //     label: 'Discord',
                     //     position: 'right',
                     // },
                     {
                         type: 'html',
                         value: `
-                            <a href="https://discord.gg/QrfTN2Aukx" target="_blank" rel="noopener noreferrer">
+                            <a href="https://discord.gg/pevXXrzzKt" target="_blank" rel="noopener noreferrer">
                                 <img width="27px" height="27px" src="/img/discord-mark-white.svg" alt="Active Courses Discord Server">
                             </a>
                         `,
