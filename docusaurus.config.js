@@ -110,34 +110,15 @@ module.exports = {
                         label: 'Intro',
                     },
                     {
-                        label: 'Courses',
-                        type: 'dropdown',
-                        position: 'left',
-                        items: [
-                            {
-                                type: 'docSidebar',
-                                sidebarId: 'coreSidebar',
-                                label: 'Core',
-                            },
-                            {
-                                type: 'docSidebar',
-                                sidebarId: 'subfieldsSidebar',
-                                label: 'Subfields',
-                            },
-                        ],
+                        type: 'docSidebar',
+                        sidebarId: 'coreSidebar',
+                        label: 'Core',
                     },
-                    // {
-                    //     type: 'docSidebar',
-                    //     sidebarId: 'coreSidebar',
-                    //     position: 'left',
-                    //     label: 'Core',
-                    // },
-                    // {
-                    //     type: 'docSidebar',
-                    //     sidebarId: 'subfieldsSidebar',
-                    //     position: 'left',
-                    //     label: 'Subfields',
-                    // },
+                    {
+                        type: 'docSidebar',
+                        sidebarId: 'subfieldsSidebar',
+                        label: 'Subfields',
+                    },
                     {
                         type: 'docSidebar',
                         sidebarId: 'resourcesAndGuidesSidebar',
@@ -145,7 +126,45 @@ module.exports = {
                         label: 'Resources & Guides',
                     },
                     {
+                        label: 'Career',
+                        type: 'dropdown',
+                        position: 'left',
+                        items: [
+                            {
+                                type: 'doc',
+                                docId: 'career/services',
+                                label: 'Services',
+                            },
+                            {
+                                type: 'doc',
+                                docId: 'career/fairs',
+                                label: 'Fairs',
+                            },
+                        ],
+                    },
+                    {
+                        label: 'About Us',
+                        type: 'dropdown',
+                        position: 'left',
+                        items: [
+                            {
+                                type: 'doc',
+                                docId: 'about-us/contributors',
+                                label: 'Contributors',
+                            },
+                            {
+                                type: 'doc',
+                                docId: 'about-us/mission',
+                                label: 'Mission',
+                            },
+                        ],
+                    },
+                    {
                         type: 'search',
+                        position: 'right',
+                    },
+                    {
+                        type: 'localeDropdown',
                         position: 'right',
                     },
                     { to: '/blog', label: 'Blog', position: 'right' },
@@ -174,4 +193,16 @@ module.exports = {
                 additionalLanguages: ['php', 'ruby', 'java', 'csharp', 'go', 'kotlin', 'python'],
             },
         }),
+    i18n: {
+        defaultLocale: 'ar',
+        locales: ['ar', 'en'],
+        localeConfigs: {
+            'ar': {
+                direction: 'ltr',
+            },
+            // 'en-US': {
+            //     htmlLang: 'en-US',
+            // },
+        },
+    },
 };

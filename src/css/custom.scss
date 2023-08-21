@@ -41,7 +41,12 @@ aside * {
     font-size: 1.1rem !important;
 }
 
-nav * {
+nav.navbar * {
+    font-size: 0.9rem !important;
+    text-transform: uppercase !important;
+}
+
+nav.menu * {
     font-size: 1.1rem !important;
     text-transform: uppercase !important;
 }
