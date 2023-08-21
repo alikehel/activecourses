@@ -277,6 +277,23 @@ nav.menu {
     padding-top: 24px;
 }
 
+.DocSearch-Button-Placeholder {
+    display: none !important;
+}
+
+.DocSearch-Button-Container {
+    padding-right: 8px !important;
+}
+
+.navbar__title {
+    font-size: 1.5rem !important;
+    font-weight: 600 !important;
+    // letter-spacing: 0.1rem !important;
+    // text-transform: uppercase !important;
+    // font-family: 'Roboto Mono', monospace !important;
+    // font-family: 'Roboto', sans-serif !important;
+}
+
 /****************************** Theme Test ******************************/
 
 // html .navbar {

@@ -123,7 +123,7 @@ module.exports = {
                         type: 'docSidebar',
                         sidebarId: 'resourcesAndGuidesSidebar',
                         position: 'left',
-                        label: 'Resources & Guides',
+                        label: 'Resources',
                     },
                     {
                         label: 'Career',
@@ -168,14 +168,34 @@ module.exports = {
                         position: 'right',
                     },
                     { to: '/blog', label: 'Blog', position: 'right' },
+
+                    // {
+                    //     href: 'https://github.com/alikehel/activecourses',
+                    //     // label: 'GitHub',
+                    //     html: '<img width="32px" height="32px" href="img/logo-192x192.png"/>',
+                    //     position: 'right',
+                    // },
                     {
-                        href: 'https://github.com/alikehel/activecourses',
-                        label: 'GitHub',
+                        type: 'html',
+                        value: `
+                            <a href="https://github.com/alikehel/activecourses" target="_blank" rel="noopener noreferrer">
+                                <img width="27px" height="27px" src="/img/github-white.svg" alt="Active Courses Github Repo">
+                            </a>
+                        `,
                         position: 'right',
                     },
+                    // {
+                    //     href: 'https://discord.gg/QrfTN2Aukx',
+                    //     label: 'Discord',
+                    //     position: 'right',
+                    // },
                     {
-                        href: 'https://discord.gg/QrfTN2Aukx',
-                        label: 'Discord',
+                        type: 'html',
+                        value: `
+                            <a href="https://discord.gg/QrfTN2Aukx" target="_blank" rel="noopener noreferrer">
+                                <img width="27px" height="27px" src="/img/discord-mark-white.svg" alt="Active Courses Discord Server">
+                            </a>
+                        `,
                         position: 'right',
                     },
                 ],
@@ -197,7 +217,7 @@ module.exports = {
         defaultLocale: 'ar',
         locales: ['ar', 'en'],
         localeConfigs: {
-            'ar': {
+            ar: {
                 direction: 'ltr',
             },
             // 'en-US': {
