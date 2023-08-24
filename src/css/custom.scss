@@ -135,6 +135,7 @@ html[data-theme='dark'] .menu *:hover {
 iframe {
     border: 1px solid #262626;
     margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 .footer .container {
@@ -212,13 +213,13 @@ details {
     text-transform: uppercase !important;
 }
 
-// .markdown h2,
-// .markdown h3,
-// .markdown h4,
-// .markdown h5,
-// .markdown h6 {
-//     // margin-block: 30px !important;
-// }
+.markdown h2,
+.markdown h3,
+.markdown h4,
+.markdown h5,
+.markdown h6 {
+    margin-top: 30px !important;
+}
 
 .markdown * {
     line-height: 1.7;
