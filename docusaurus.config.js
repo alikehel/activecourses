@@ -163,12 +163,12 @@ module.exports = {
                             {
                                 type: 'docSidebar',
                                 sidebarId: 'resourcesCoreSidebar',
-                                label: 'Core',
+                                label: 'MOOCS',
                             },
                             {
                                 type: 'docSidebar',
                                 sidebarId: 'resourcesSubfieldsSidebar',
-                                label: 'Subfields',
+                                label: 'Sub-Fields',
                             },
                         ],
                     },
