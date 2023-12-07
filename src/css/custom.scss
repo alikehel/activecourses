@@ -26,13 +26,13 @@
 }
 
 :root {
-    --ifm-font-family-monospace: 'Noto Sans Arabic', sans-serif !important;
-    --ifm-font-family-base: 'Noto Sans Arabic', sans-serif !important;
+    // --ifm-font-family-monospace: monospace sans-serif !important;
+    // --ifm-font-family-base: monospace sans-serif !important;
     --ifm-heading-font-weight: 500;
 }
 
 body {
-    font-family: 'Noto Sans Arabic', sans-serif !important;
+    // font-family: 'Noto Sans Arabic', sans-serif !important;
     font-weight: 300 !important;
     font-size: 1.3rem !important;
 }
@@ -227,8 +227,8 @@ details {
 }
 
 .markdown a:not([class]) {
-    color: #fff;
-    text-decoration: underline 1px #fff;
+    color: #ddd;
+    text-decoration: underline 1px #ddd;
     text-underline-offset: 3px;
     transition: text-decoration-color 0.2s;
 }
@@ -358,4 +358,8 @@ html main .container .row .col.col--3 {
 
 .col--offset-1 {
     margin-left: 0;
+}
+
+.dropdown__menu .dropdown__link {
+    padding-block: 10px !important;
 }
