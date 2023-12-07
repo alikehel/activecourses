@@ -179,6 +179,11 @@ module.exports = {
                         items: [
                             {
                                 type: 'doc',
+                                docId: 'about-us/board-of-leaders',
+                                label: 'Board of Leaders',
+                            },
+                            {
+                                type: 'doc',
                                 docId: 'about-us/contributors',
                                 label: 'Contributors',
                             },
