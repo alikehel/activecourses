@@ -104,14 +104,29 @@ module.exports = {
                 },
                 items: [
                     {
-                        label: 'Services',
+                        label: 'Community',
                         type: 'dropdown',
                         position: 'left',
                         items: [
                             {
                                 type: 'docSidebar',
-                                sidebarId: 'servicesCommunitySidebar',
-                                label: 'Community',
+                                sidebarId: 'communityGeneralSidebar',
+                                label: 'General',
+                            },
+                            {
+                                type: 'doc',
+                                docId: 'community/roles-onboarding',
+                                label: 'Roles Onboarding',
+                            },
+                            {
+                                type: 'docSidebar',
+                                sidebarId: 'communityServicesOnboardingSidebar',
+                                label: 'Services Onboarding',
+                            },
+                            {
+                                type: 'doc',
+                                docId: 'community/channels-categories-onboarding',
+                                label: 'Channels & Categories Onboarding',
                             },
                         ],
                     },
@@ -169,21 +184,16 @@ module.exports = {
                                 sidebarId: 'otherResourcesSidebar',
                                 label: 'Resources',
                             },
-                            {
-                                type: 'docSidebar',
-                                sidebarId: 'otherMiscSidebar',
-                                label: 'Other',
-                            },
                         ],
                     },
                     {
                         type: 'search',
                         position: 'right',
                     },
-                    {
-                        type: 'localeDropdown',
-                        position: 'right',
-                    },
+                    // {
+                    //     type: 'localeDropdown',
+                    //     position: 'right',
+                    // },
                     { to: '/blog', label: 'Blog', position: 'right' },
 
                     // {
@@ -234,23 +244,23 @@ module.exports = {
             },
             tableOfContents: {
                 minHeadingLevel: 2,
-                maxHeadingLevel: 2,
+                maxHeadingLevel: 3,
             },
             prism: {
                 theme: codeTheme,
                 additionalLanguages: ['php', 'ruby', 'java', 'csharp', 'go', 'kotlin', 'python'],
             },
         }),
-    i18n: {
-        defaultLocale: 'ar',
-        locales: ['ar', 'en'],
-        localeConfigs: {
-            ar: {
-                direction: 'ltr',
-            },
-            // 'en-US': {
-            //     htmlLang: 'en-US',
-            // },
-        },
-    },
+    // i18n: {
+    //     defaultLocale: 'ar',
+    //     locales: ['ar', 'en'],
+    //     localeConfigs: {
+    //         ar: {
+    //             direction: 'ltr',
+    //         },
+    //         // 'en-US': {
+    //         //     htmlLang: 'en-US',
+    //         // },
+    //     },
+    // },
 };

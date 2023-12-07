@@ -17,10 +17,18 @@ const ContributorCard = ({ name, role, description, imageSrc }) => (
             color: '#fff',
         }}
     >
-        <div style={{ flex: '0 0 120px', overflow: 'hidden' }}>
+        <div style={{ flex: '0 0 120px', overflow: 'hidden', width: '150px', height: '150px' }}>
             <img
-                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                src={imageSrc}
+                style={{
+                    width: '100%',
+                    height: '100%',
+                    objectFit: 'cover',
+                    objectPosition: 'center',
+                }}
+                src={
+                    imageSrc ||
+                    'https://www.pngkey.com/png/detail/950-9501315_katie-notopoulos-katienotopoulos-i-write-about-tech-user.png'
+                }
                 alt={`Contributor Image of ${name}`}
             />
         </div>
