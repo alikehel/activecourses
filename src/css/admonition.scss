@@ -66,9 +66,9 @@ html[data-theme='light'] {
 html[data-theme='dark'] {
   article {
     .admonition-note {
-      --ifm-heading-color: #ffffff;
+      --ifm-heading-color: #e0e0e0;
       --ifm-alert-background-color: rgba(255, 255, 255, 0.1);
-      --ifm-alert-border-color: #ffffff;
+      --ifm-alert-border-color: #c0c0c0;
     }
 
     .admonition-tip {
