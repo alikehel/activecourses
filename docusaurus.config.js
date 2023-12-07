@@ -137,8 +137,28 @@ module.exports = {
                         items: [
                             {
                                 type: 'docSidebar',
-                                sidebarId: 'resourcesGeneralSidebar',
-                                label: 'General',
+                                sidebarId: 'resourcesCoursesSidebar',
+                                label: 'Courses',
+                            },
+                            {
+                                type: 'doc',
+                                docId: 'resources/essential',
+                                label: 'Essential',
+                            },
+                            {
+                                type: 'doc',
+                                docId: 'resources/career-resources',
+                                label: 'Career Resources',
+                            },
+                            {
+                                type: 'doc',
+                                docId: 'resources/career-advancement',
+                                label: 'Career Advancement',
+                            },
+                            {
+                                type: 'doc',
+                                docId: 'resources/networking',
+                                label: 'Networking',
                             },
                             {
                                 type: 'docSidebar',
