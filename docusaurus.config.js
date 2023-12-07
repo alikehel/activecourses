@@ -104,41 +104,36 @@ module.exports = {
                 },
                 items: [
                     {
-                        type: 'docSidebar',
-                        sidebarId: 'introSidebar',
-                        position: 'left',
-                        label: 'Intro',
-                    },
-                    {
-                        type: 'docSidebar',
-                        sidebarId: 'coreSidebar',
-                        label: 'Core',
-                    },
-                    {
-                        type: 'docSidebar',
-                        sidebarId: 'subfieldsSidebar',
-                        label: 'Subfields',
-                    },
-                    {
-                        type: 'docSidebar',
-                        sidebarId: 'resourcesAndGuidesSidebar',
-                        position: 'left',
-                        label: 'Resources',
-                    },
-                    {
-                        label: 'Career',
+                        label: 'Services',
                         type: 'dropdown',
                         position: 'left',
                         items: [
                             {
-                                type: 'doc',
-                                docId: 'career/services',
-                                label: 'Services',
+                                type: 'docSidebar',
+                                sidebarId: 'servicesCommunitySidebar',
+                                label: 'Community',
+                            },
+                        ],
+                    },
+                    {
+                        label: 'Resources',
+                        type: 'dropdown',
+                        position: 'left',
+                        items: [
+                            {
+                                type: 'docSidebar',
+                                sidebarId: 'resourcesGeneralSidebar',
+                                label: 'General',
                             },
                             {
-                                type: 'doc',
-                                docId: 'career/fairs',
-                                label: 'Fairs',
+                                type: 'docSidebar',
+                                sidebarId: 'resourcesCoreSidebar',
+                                label: 'Core',
+                            },
+                            {
+                                type: 'docSidebar',
+                                sidebarId: 'resourcesSubfieldsSidebar',
+                                label: 'Subfields',
                             },
                         ],
                     },
@@ -156,6 +151,28 @@ module.exports = {
                                 type: 'doc',
                                 docId: 'about-us/mission',
                                 label: 'Mission',
+                            },
+                            {
+                                type: 'doc',
+                                docId: 'about-us/acu-comparison',
+                                label: 'ACU vs. Others',
+                            },
+                        ],
+                    },
+                    {
+                        label: 'Other',
+                        type: 'dropdown',
+                        position: 'left',
+                        items: [
+                            {
+                                type: 'docSidebar',
+                                sidebarId: 'otherResourcesSidebar',
+                                label: 'Resources',
+                            },
+                            {
+                                type: 'docSidebar',
+                                sidebarId: 'otherMiscSidebar',
+                                label: 'Other',
                             },
                         ],
                     },
@@ -192,8 +209,19 @@ module.exports = {
                     {
                         type: 'html',
                         value: `
-                            <a href="https://discord.gg/pevXXrzzKt" target="_blank" rel="noopener noreferrer">
-                                <img width="27px" height="27px" src="/img/discord-mark-white.svg" alt="Active Courses Discord Server">
+                            <a href="https://discord.gg/pevXXrzzKt" target="_blank" rel="noopener noreferrer" style="display:flex;align-items: center;gap: 5px;margin-right:-10px">
+                                <img width="27px" height="27px" src="/img/discord-mark-white.svg" alt="Active Courses Discord Server" style="margin-top:-3px;">
+                                <p style="display:inline; margin:0">Arabic</p>
+                            </a>
+                        `,
+                        position: 'right',
+                    },
+                    {
+                        type: 'html',
+                        value: `
+                            <a href="https://discord.gg/WEemGPXfnA" target="_blank" rel="noopener noreferrer" style="display:flex;align-items: center;gap: 5px;">
+                                <img width="27px" height="27px" src="/img/discord-mark-white.svg" alt="Active Courses Discord Server" style="margin-top:-3px;">
+                                <p style="display:inline; margin:0">English</p>
                             </a>
                         `,
                         position: 'right',
