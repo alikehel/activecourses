@@ -13,10 +13,13 @@ const Card = styled.div`
   background: #222;
   color: #fff;
 
+  @media (max-width: 1200px) {
+    width: 100%;
+  }
+  
   @media (max-width: 700px) {
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    width: 100%;
   }
 `;
 
@@ -27,7 +30,7 @@ const ImageContainer = styled.div`
   height: 150px;
 
   @media (max-width: 700px) {
-    width: 100px;
+    margin: 0 auto;
     height: auto;
   }
 `;
@@ -42,6 +45,11 @@ const Image = styled.img`
 const TextContainer = styled.div`
   flex: 1;
   padding: 10px;
+  
+    @media (max-width: 700px) {
+        // center text
+        text-align: center;
+    }
 `;
 
 const ContributorCard = ({ name, role, description, imageSrc }) => (
