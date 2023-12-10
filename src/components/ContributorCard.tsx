@@ -18,7 +18,6 @@ const Card = styled.div`
   }
   
   @media (max-width: 700px) {
-    flex-direction: column;
     width: 100%;
   }
 `;
@@ -45,11 +44,6 @@ const Image = styled.img`
 const TextContainer = styled.div`
   flex: 1;
   padding: 10px;
-  
-    @media (max-width: 700px) {
-        // center text
-        text-align: center;
-    }
 `;
 
 const ContributorCard = ({ name, role, description, imageSrc }) => (
