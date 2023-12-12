@@ -136,14 +136,24 @@ module.exports = {
                         position: 'left',
                         items: [
                             {
+                                type: 'doc',
+                                docId: 'resources/essential',
+                                label: 'Essential',
+                            },
+                            {
                                 type: 'docSidebar',
                                 sidebarId: 'resourcesCoursesSidebar',
                                 label: 'Courses',
                             },
                             {
-                                type: 'doc',
-                                docId: 'resources/essential',
-                                label: 'Essential',
+                                type: 'docSidebar',
+                                sidebarId: 'resourcesSubfieldsSidebar',
+                                label: 'Sub-Fields',
+                            },
+                            {
+                                type: 'docSidebar',
+                                sidebarId: 'resourcesCoreSidebar',
+                                label: 'MOOCS',
                             },
                             {
                                 type: 'doc',
@@ -159,16 +169,6 @@ module.exports = {
                                 type: 'doc',
                                 docId: 'resources/networking',
                                 label: 'Networking',
-                            },
-                            {
-                                type: 'docSidebar',
-                                sidebarId: 'resourcesCoreSidebar',
-                                label: 'MOOCS',
-                            },
-                            {
-                                type: 'docSidebar',
-                                sidebarId: 'resourcesSubfieldsSidebar',
-                                label: 'Sub-Fields',
                             },
                         ],
                     },
