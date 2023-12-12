@@ -44,25 +44,49 @@ const Image = styled.img`
 const TextContainer = styled.div`
   flex: 1;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 `;
 
-const ContributorCard = ({ name, role, description, imageSrc }) => (
-  <Card>
-    <ImageContainer>
-      <Image
-        src={
-          imageSrc ||
-          'https://www.pngkey.com/png/detail/950-9501315_katie-notopoulos-katienotopoulos-i-write-about-tech-user.png'
-        }
-        alt={`Contributor Image of ${name}`}
-      />
-    </ImageContainer>
-    <TextContainer>
-      <div style={{ fontSize: '1.2rem', fontWeight: 'bold' }}>{name}</div>
-      <div style={{ color: '#888' }}>{role}</div>
-      {description && <p style={{ lineHeight: '1.4' }}>{description}</p>}
-    </TextContainer>
-  </Card>
+const ContributorCard = ({ name, role, description, imageSrc, linkedinUrl, githubUrl }) => (
+    <Card>
+        <ImageContainer>
+            <Image
+                src={
+                    imageSrc ||
+                    'https://www.pngkey.com/png/detail/950-9501315_katie-notopoulos-katienotopoulos-i-write-about-tech-user.png'
+                }
+                alt={`Contributor Image of ${name}`}
+            />
+        </ImageContainer>
+        <TextContainer>
+            <div>
+                <div style={{ fontSize: '1.2rem', fontWeight: 'bold' }}>{name}</div>
+                <div style={{ color: '#888' }}>{role}</div>
+                {description && <p style={{ lineHeight: '1.4' }}>{description}</p>}
+            </div>
+            <div>
+                {linkedinUrl && (
+                    <a href={linkedinUrl} target="_blank" rel="noreferrer">
+                        <picture>
+                            <source media="(prefers-color-scheme: dark)" srcSet="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin-dark.svg" />
+                            <source media="(prefers-color-scheme: light)" srcSet="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" />
+                            <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" />
+                        </picture>
+                    </a>
+                )}
+                {githubUrl && (
+                    <a href={githubUrl} target="_blank" rel="noreferrer">
+                        <picture>
+                            <source media="(prefers-color-scheme: dark)" srcSet="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" />
+                            <source media="(prefers-color-scheme: light)" srcSet="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" />
+                            <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" />
+                        </picture>
+                    </a>
+                )}
+            </div>
+        </TextContainer>
+    </Card>
 );
-
 export default ContributorCard;
