@@ -170,6 +170,11 @@ module.exports = {
                                 docId: 'resources/networking',
                                 label: 'Networking',
                             },
+                            {
+                                type: 'docSidebar',
+                                sidebarId: 'resourcesOtherRSidebar',
+                                label: 'Other',
+                            },
                         ],
                     },
                     {
@@ -199,18 +204,18 @@ module.exports = {
                             },
                         ],
                     },
-                    {
-                        label: 'Other',
-                        type: 'dropdown',
-                        position: 'left',
-                        items: [
-                            {
-                                type: 'docSidebar',
-                                sidebarId: 'otherResourcesSidebar',
-                                label: 'Resources',
-                            },
-                        ],
-                    },
+                    // {
+                    //     label: 'Other',
+                    //     type: 'dropdown',
+                    //     position: 'left',
+                    //     items: [
+                    //         {
+                    //             type: 'docSidebar',
+                    //             sidebarId: 'otherResourcesSidebar',
+                    //             label: 'Resources',
+                    //         },
+                    //     ],
+                    // },
                     {
                         type: 'search',
                         position: 'right',
