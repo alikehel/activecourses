@@ -184,6 +184,16 @@ module.exports = {
                             },
                             {
                                 type: 'doc',
+                                docId: 'about-us/mentors',
+                                label: 'Mentors',
+                            },
+                            {
+                                type: 'doc',
+                                docId: 'about-us/curriculum-maintainers',
+                                label: 'Cirriculum Maintainers',
+                            },
+                            {
+                                type: 'doc',
                                 docId: 'about-us/contributors',
                                 label: 'Contributors',
                             },
