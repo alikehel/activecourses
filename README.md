@@ -18,15 +18,15 @@ The web app for the Active Courses discord server.
 
 **Active Course** is a vibrant and inclusive **Arabic** Discord server dedicated to fostering a thriving community for CS enthusiasts mainly in the **Egyptian region**. Whether you're a beginner or an expert, we've got something valuable to offer to everyone. Join us to dive into the exciting world of Computer Science, study together, share knowledge, and engage in meaningful discussions with like-minded individuals.
 
-Join [Active Courses Discord](https://discord.gg/pevXXrzzKt) now and take your CS studies to new heights.
+Join [![Discord](https://img.shields.io/discord/950993900720492574?style=%20&logo=discord&logoColor=ffffff&label=Arabic%20ACU&labelColor=6A7EC2&color=7389D8)](https://discord.gg/QrfTN2Aukx) [![Discord](https://img.shields.io/discord/1026170883997438112?style=%20&logo=discord&logoColor=ffffff&label=English%20ACU&labelColor=6A7EC2&color=7389D8)](https://discord.gg/WEemGPXfnA) now and take your CS studies to new heights.
 
-Special thanks to [Omar Shawky](https://www.linkedin.com/in/omarshawky1/) for creating this amazing discord server.
+Special thanks to [Omar Shawky](https://www.linkedin.com/in/omarshawky1/) for creating this amazing Discord server.
 
 [![Discord](https://img.shields.io/discord/950993900720492574.svg?style=for-the-badge&label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/pevXXrzzKt)
 
 ## How to Contribute
 
-Use [Conventional Commits](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits) when commiting.
+Use [Conventional Commits](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits) when committing.
 
 ### Non-substantive changes
 
@@ -45,9 +45,9 @@ Take a look at these if you need:
 
 Check the templates: [blog template](./blog.template.mdx), [course template](./course.template.mdx).
 
-Don't forget to add any arabic text between \<div dir="rtl"> \</div>
+Don't forget to add any Arabic text between \<div dir="rtl"> \</div>
 
-The title of any mdx file will be extracted from the frontmatter section and it must be in english.
+The title of any MDX file will be extracted from the frontmatter section and it must be in English.
 
 ## Local Development
 
