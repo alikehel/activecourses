@@ -1,4 +1,4 @@
-ℹ️ Visit [activecourses.netlify.app](https://activecourses.netlify.app/) if  the main URL is not working. ℹ️
+ℹ️ Visit [activecourses.netlify.app](https://activecourses.netlify.app/) if the main URL is not working. ℹ️
 
 <div align="center">
   <img src=./banner.png>
@@ -16,13 +16,13 @@ The web app for the Active Courses discord server.
 [![GitHub license](https://img.shields.io/github/license/alikehel/activecourses)](https://github.com/alikehel/activecourses/blob/main/LICENSE)
 <img src="https://img.shields.io/github/issues-pr-raw/alikehel/activecourses" />
 
-**Active Course** is a vibrant and inclusive **Arabic** Discord server dedicated to fostering a thriving community for CS enthusiasts mainly in the **Egyptian region**. Whether you're a beginner or an expert, we've got something valuable to offer to everyone. Join us to dive into the exciting world of Computer Science, study together, share knowledge, and engage in meaningful discussions with like-minded individuals.
+**Active Course University** is a community on Discord dedicated to Big Tech Hunting and studying CS MOOCs. Whether you're a beginner or an expert, we've got something valuable to offer to everyone. Join us to dive into the exciting world of Computer Science, study together, share knowledge, and engage in meaningful discussions with like-minded individuals.
 
-Join [![Discord](https://img.shields.io/discord/950993900720492574?style=%20&logo=discord&logoColor=ffffff&label=Arabic%20ACU&labelColor=6A7EC2&color=7389D8)](https://discord.gg/QrfTN2Aukx) [![Discord](https://img.shields.io/discord/1026170883997438112?style=%20&logo=discord&logoColor=ffffff&label=English%20ACU&labelColor=6A7EC2&color=7389D8)](https://discord.gg/WEemGPXfnA) now and take your CS studies to new heights.
+Join now and take your CS studies to new heights. Check [ACU Repo](https://github.com/OmarShawky1/ACU) or The website for a detailed description.
 
-Special thanks to [Omar Shawky](https://www.linkedin.com/in/omarshawky1/) for creating this amazing Discord server.
+[![Discord](https://img.shields.io/discord/950993900720492574?style=%20&logo=discord&logoColor=ffffff&label=Arabic%20ACU&labelColor=6A7EC2&color=7389D8)](https://discord.gg/QrfTN2Aukx) [![Discord](https://img.shields.io/discord/1026170883997438112?style=%20&logo=discord&logoColor=ffffff&label=English%20ACU&labelColor=6A7EC2&color=7389D8)](https://discord.gg/WEemGPXfnA)
 
-[![Discord](https://img.shields.io/discord/950993900720492574.svg?style=for-the-badge&label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/pevXXrzzKt)
+Special thanks to [Omar Shawky](https://www.linkedin.com/in/omarshawky1/) for creating the community.
 
 ## How to Contribute
 
@@ -30,7 +30,7 @@ Use [Conventional Commits](https://marketplace.visualstudio.com/items?itemName=v
 
 ### Non-substantive changes
 
-For any minor updates to the curriculum, such as fixing broken URLs, correcting spelling or syntax errors, and other non-substantive issues, we welcome you to submit a pull request. You can do this by following the guidelines in [pull request guide](https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github-3/).
+For any minor updates to the curriculum, such as fixing broken URLs, correcting spelling or syntax errors, and other non-substantive issues, we welcome you to submit a pull request. You can do this by following the guidelines in the [pull request guide](https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github-3/).
 
 ### Substantive changes
 
@@ -43,7 +43,7 @@ Take a look at these if you need:
 - https://docusaurus.io/docs/blog
 > You can just see the existing mdx files and copy them.
 
-Check the templates: [blog template](./blog.template.mdx), [course template](./course.template.mdx).
+Check the templates: [blog template](./blog.template.mdx), and [course template](./course.template.mdx).
 
 Don't forget to add any Arabic text between \<div dir="rtl"> \</div>
 
