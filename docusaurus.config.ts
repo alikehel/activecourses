@@ -195,7 +195,7 @@ const config: Config = {
                         {
                             type: 'doc',
                             docId: 'about-us/curriculum-maintainers',
-                            label: 'Cirriculum Maintainers',
+                            label: 'Curriculum Maintainers',
                         },
                         {
                             type: 'doc',
