@@ -9,6 +9,7 @@ const config: Config = {
     // tagline: 'All the tools you need to build modern transactional notification experience',
     url: 'https://activecourses.pages.dev',
     baseUrl: '/',
+    trailingSlash: false,
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/favicon.ico',
