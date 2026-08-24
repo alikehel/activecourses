@@ -1,0 +1,16 @@
+# This site has migrated to Cloudflare Pages.
+# Netlify is retained purely as a 301 redirect shell so that URLs already
+# indexed by Google (activecourses.netlify.app) pass their ranking signals
+# to the new host. Keep this deployed for at least a year.
+#
+# The build still runs so that removing this file is a complete rollback.
+
+[build]
+    command = "yarn build"
+    publish = "build"
+
+[[redirects]]
+    from = "/*"
+    to = "https://activecourses.pages.dev/:splat"
+    status = 301
+    force = true
