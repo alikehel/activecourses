@@ -8,7 +8,7 @@ export default function DocIssue() {
     <p style={{ paddingLeft: '20px', marginTop: '30px' }}>
       Is something broken?{' '}
       <a
-        href={`https://github.com/alikehel/activecourses/issues/new?template=docs_feedback.yml&page-url=https://www.activecourses.tech${location.pathname}`}
+        href={`https://github.com/alikehel/activecourses/issues/new?template=docs_feedback.yml&page-url=https://activecourses.netlify.app${location.pathname}`}
       >
         Please open an issue!
       </a>

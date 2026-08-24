@@ -7,7 +7,7 @@ import type { Config } from '@docusaurus/types';
 const config: Config = {
     title: 'Active Courses',
     // tagline: 'All the tools you need to build modern transactional notification experience',
-    url: 'https://www.activecourses.tech',
+    url: 'https://activecourses.netlify.app',
     baseUrl: '/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
@@ -19,7 +19,7 @@ const config: Config = {
         [
             'docusaurus-plugin-plausible',
             {
-                domain: 'activecourses.tech',
+                domain: 'activecourses.netlify.app',
             },
         ],
     ],
