@@ -1,6 +1,7 @@
 {
   "name": "activecourses",
   "private": true,
+  "packageManager": "yarn@1.22.22",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start --port 4040",
