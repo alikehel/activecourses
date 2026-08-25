@@ -15,15 +15,15 @@
     "write-heading-ids": "docusaurus write-heading-ids",
     "typecheck": "tsc",
     "format": "prettier --write .",
-    "lint": "npm run lint:js & npm run lint:styles & npm run lint:md",
-    "lint:fix": "npm run lint:js:fix & npm run lint:styles:fix & npm run lint:md:fix",
+    "lint": "npm run lint:js && npm run lint:styles && npm run lint:md",
+    "lint:fix": "npm run lint:js:fix && npm run lint:styles:fix && npm run lint:md:fix",
     "lint:js": "eslint --ext .js,.jsx,.tsx --ignore-path .gitignore .",
     "lint:js:fix": "eslint --fix --ext .js,.jsx,.tsx --ignore-path .gitignore .",
     "lint:styles": "stylelint --ignore-path .gitignore '{**/*,*}.{css,sass,scss,md,html}'",
     "lint:styles:fix": "stylelint --fix --ignore-path .gitignore '{**/*,*}.{css,sass,scss,md,html}'",
     "lint:md": "markdownlint --ignore-path .gitignore .",
     "lint:md:fix": "markdownlint --fix --ignore-path .gitignore .",
-    "prepare": "cd .. && husky install docs/.husky"
+    "prepare": "husky install"
   },
   "dependencies": {
     "@docusaurus/core": "^3.0.1",
