@@ -1,12 +1,10 @@
-ℹ️ Visit [activecourses.netlify.app](https://activecourses.netlify.app/) if the main URL is not working. ℹ️
-
 <div align="center">
   <img src=./banner.png>
 </div>
 
 # Active Courses
 
-The web app for the Active Courses discord server.
+Website of Active Courses, an Egyptian tech community on Discord: https://activecourses.pages.dev
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/2019981a-3a4b-44e7-84f4-15a347a57a35/deploy-status)](https://app.netlify.com/sites/activecourses/deploys)
 [![GitHub contributors](https://img.shields.io/github/contributors/alikehel/activecourses)](https://github.com/alikehel/activecourses/contributors)
